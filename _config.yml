@@ -1,10 +1,10 @@
 # change the followings to match your Github username and repo name
-baseurl: "/blog" # the name of your github repo
+baseurl: "/website" # the name of your github repo
 url: "https://kayvane1.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "About Kayvane"
-description: A blog for code walkthroughs and tutorials. Focused on ML projects, ML Ops, deployments & methodologies
+description: A website for code walkthroughs and tutorials. Focused on ML projects, ML Ops, deployments & methodologies
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
@@ -22,8 +22,8 @@ nav-menu:
   permalink: about
 - text: Experience
   permalink: experience
-- text: Blog
-  permalink: blog
+- text: Posts
+  permalink: posts
 
 # use false to turn off any social media links
 twitter: false

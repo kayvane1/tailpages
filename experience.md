@@ -7,17 +7,19 @@ permalink: experience
                                                              
 ## Product Management
 
-- Developped an ML based product from idea stage to production deployment across 2 cloud platforms. This included internal pitches for funding at KPMG with the seed investment from the firm £250k with further investment in progress.
+- Developed an ML based product from idea stage to production deployment across 2 cloud platforms. This included internal pitches for funding at KPMG with the seed investment from the firm £250k with further investment in progress.
+
+- Problem Statement: It is time consuming and difficult to properly classify a company's trading activity. The trading activity exposes the bank to a level of risk and drives the majority of the due dilligence requirements. Additionally, this activity could change at any point in time without informing the bank.
 
 - The product is a Machine Learning based alternative to understanding customer trading activities using online digital traces and extrapolating the risk they provide to a Bank. Uses Natural Language Processing to emulate analyst lead investigations.
 
 - The product is made available as a subscription based API that banks can integrate into different product where understanding a customers industry and risks are essential (client onboarding, due dilligence, periodic customer review etc.)
 
-- Tech Stack: 
-  - AWS Services: API Gateway, Lambda, Step Functions, ECS
-  - Packages: Transformers, SpaCy, Sentence Transformers, Magnitude
+- ‍💻  Tech Stack: 
+  - ☁️  AWS Services: API Gateway, Lambda, Step Functions, ECS
+  - 📦  Packages: Transformers, SpaCy, Sentence Transformers, Magnitude
 
-- Design Tools
+- 🖌️  Design Tools
   - Figma
 
 
@@ -30,11 +32,34 @@ permalink: experience
 - The delivery was required to be on-premise on the client's infrastructure (custom Kubernetes cluster, standalone non-gpu enabled server for model training, Oracle DB back-end, S3-like blob storage)
 - The team deployed 2 ML models and 16 Heuristic Models to production, passing the models and ecosystem through the internal Model Risk Process. 
 
-## Data Science
+- 💻   Tech Stack: 
+  - 🏗️  Infrastructure: Pivotal Container Services, Linux RHEL
+  - 📦   Packages: Instabase, XGBoost, OpenCV, Microsoft OCR
 
-- Developed an NLP Model (BERT-Based) fine-tuned on CDD domain language to extract key information from unstructured text via both NER and Question Answering tasks.
+## Machine Learning
+
+### Client Deliveries
+
+- Developed an NLP Model (BERT-Based) fine-tuned on Customer Due Dilligence (CDD) domain language to extract key information from unstructured text via both NER and Question Answering tasks.
 
 - Built Machine learning models for a large UK bank, focusing on streamlining the complaints process. Developed an NLP classifier to judge which complaints could be accelerated through the process. Built an anomaly detection algorithm to warn of sudden spikes in volumes and link back the spike to a root cause.
+
+#### Personal Projects
+
+##### Text Based ML
+- Predicting Brexit using Twitter as a high frequency polling mechanism. Built a fine-tuned DistilBert model to predict whether a spefic tweet was for brexit (anti-EU), against brexit (pro-EU) or neutral. [🔗 Presentation](https://www.bigsurv20.org/conf20/uploads/16/69/Twitter_BigSurv_4_.pdf)
+
+##### Image Based ML
+
+
+##### Generative ML
+
+
+##### Audio ML
+
+
+##### Reinforcement Learning
+
 
 ## Data Engineering
 
