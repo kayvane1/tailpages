@@ -38,7 +38,7 @@ permalink: experience
 
 ## Machine Learning
 
-### Client Deliveries
+#### Client Deliveries
 
 - Developed an NLP Model (BERT-Based) fine-tuned on Customer Due Dilligence (CDD) domain language to extract key information from unstructured text via both NER and Question Answering tasks.
 
@@ -46,24 +46,24 @@ permalink: experience
 
 #### Personal Projects
 
-##### Text Based ML
+**Text Based ML**
 - Predicting Brexit using Twitter as a high frequency polling mechanism. Built a fine-tuned DistilBert model to predict whether a spefic tweet was for brexit (anti-EU), against brexit (pro-EU) or neutral. [🔗 Presentation](https://www.bigsurv20.org/conf20/uploads/16/69/Twitter_BigSurv_4_.pdf)
 
-##### Image Based ML
+**Image Based ML**
+- Using YOLO for CCTV monitoring of accessibility assets (i.e. lifts and escalators) in train stations. The pipeline counts the number of passengers using each asset over the course of the day to optimise the maintenance cycles used by Network Rail. 🔗 Write-up in Progress
 
+**Generative ML**
+- Generative Radio is a submission for Kontinuum 2022, which combines the changing seasons throughout the year with a well known composition by Vivaldi (Four Seasons) to generate a unique and ever evolving composition which will play for 365 days in a row if selected by the panel. The musical generation is supplemented with artificially generated narration, which is programmatically triggered to play every hour, similar to a radio presenter. 🔗 Write-up in Progress
 
-##### Generative ML
+- Persigan is a fine-tune Image based GAN model to generate new Persian Carpet designs 🔗 Write-up in Progress
 
-
-##### Audio ML
-
-
-##### Reinforcement Learning
-
+**Reinforcement Learning**
+- Cryptocurrency trading using the TensorTrade RL framework to trade cryptocurrencies. 🔗 Write-up in Progress
 
 ## Data Engineering
 
 - Designed then lead a team of 8 to build a customer data monitoring system for a Tier 1 Bank's high risk customers. Built in Python with 3rd party API integrations, reporting built in Pug.js
+
 - Designed then lead a team of 7 to build a configuration based migration tool to transform data from legacy systems (relational) into a single customer view as a JSON. Developed a full customer decision tree which identified any missing data that is required as per policy tailored to every customer's circumstance.
 
 ## MI & Visualisations
