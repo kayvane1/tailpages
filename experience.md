@@ -9,7 +9,7 @@ permalink: experience
 
 - Developed an ML based product from idea stage to production deployment across 2 cloud platforms. This included internal pitches for funding at KPMG with the seed investment from the firm £250k with further investment in progress.
 
-- Problem Statement: It is time consuming and difficult to properly classify a company's trading activity. The trading activity exposes the bank to a level of risk and drives the majority of the due dilligence requirements. Additionally, this activity could change at any point in time without informing the bank.
+- Problem Statement: It is time consuming and difficult to properly classify a company's trading activity. Within banking, knowing what your customers do and where they operate is key to managing financial crime. A company's trading activity exposes their banks to a certain level of risk and drives the majority of the due dilligence requirements. Additionally, this is not a point in time problem as a business banking customer could change their main trading activity at any point in time without informing their bank.
 
 - The product is a Machine Learning based alternative to understanding customer trading activities using online digital traces and extrapolating the risk they provide to a Bank. Uses Natural Language Processing to emulate analyst lead investigations.
 
@@ -25,8 +25,8 @@ permalink: experience
 
 ## ML Project Management & Delivery
 
-- Delivered the project end-to-end from PoC to Production delivery with 90+ BAU analysts using the system
 - The Intelligent Document Processing system sources documents from 3 legacy document stores through API integrations and runs all the documents through the document understanding pipeline. 
+- Delivered the project end-to-end from PoC to Production delivery with 90+ BAU analysts using the system
 - The pipeline consists of a page-stream segmentation model (page splitter) and a document classification model. Both use text based features using gradient boosted trees for latency purposes. Further work is being done using dual context (image+text) deep learning models (e.g. LayoutLM) for the next release.
 - Lead a team of 10 on a large scale Financial Crime project at a Tier 1 Bank – overseeing 4 Data Scientists, 4 Data Engineers and 2 BAs. 
 - The delivery was required to be on-premise on the client's infrastructure (custom Kubernetes cluster, standalone non-gpu enabled server for model training, Oracle DB back-end, S3-like blob storage)
@@ -42,23 +42,41 @@ permalink: experience
 
 - Developed an NLP Model (BERT-Based) fine-tuned on Customer Due Dilligence (CDD) domain language to extract key information from unstructured text via both NER and Question Answering tasks.
 
+  - 📦   Packages: Transformers, DisplaCy 
+
 - Built Machine learning models for a large UK bank, focusing on streamlining the complaints process. Developed an NLP classifier to judge which complaints could be accelerated through the process. Built an anomaly detection algorithm to warn of sudden spikes in volumes and link back the spike to a root cause.
+
+  - 📦   Packages: XGBoost, Sklearn, word2vec 
 
 #### Personal Projects
 
 **Text Based ML**
 - Predicting Brexit using Twitter as a high frequency polling mechanism. Built a fine-tuned DistilBert model to predict whether a spefic tweet was for brexit (anti-EU), against brexit (pro-EU) or neutral. [🔗 Presentation](https://www.bigsurv20.org/conf20/uploads/16/69/Twitter_BigSurv_4_.pdf)
 
+  - 📦   Packages: Transformers, SpaCy
+
 **Image Based ML**
 - Using YOLO for CCTV monitoring of accessibility assets (i.e. lifts and escalators) in train stations. The pipeline counts the number of passengers using each asset over the course of the day to optimise the maintenance cycles used by Network Rail. 🔗 Write-up in Progress
+
+  - 📦   Packages: Yolo, OpenCV
+
+- Predicting Brexit using Twitter as a high frequency polling mechanism. Built 3 Image Classification models using an EfficientNet based model to identify the person's demographics (age, race, ethnicity). The demographics tied in with the political opinion and stated profile location was used in conjunction with the national census to create representative opinion distributions across the country.
+
+  - 📦   Packages: PyTorch, EfficientNet
 
 **Generative ML**
 - Generative Radio is a submission for Kontinuum 2022, which combines the changing seasons throughout the year with a well known composition by Vivaldi (Four Seasons) to generate a unique and ever evolving composition which will play for 365 days in a row if selected by the panel. The musical generation is supplemented with artificially generated narration, which is programmatically triggered to play every hour, similar to a radio presenter. 🔗 Write-up in Progress
 
+  - 📦   Packages: PyTorch, TTS, Transformers, Coqui
+
 - Persigan is a fine-tune Image based GAN model to generate new Persian Carpet designs 🔗 Write-up in Progress
+
+  - 📦   Packages: StyleGan 2 ADA
 
 **Reinforcement Learning**
 - Cryptocurrency trading using the TensorTrade RL framework to trade cryptocurrencies. 🔗 Write-up in Progress
+
+  - 📦   Packages: TensorTrade
 
 ## Data Engineering
 
